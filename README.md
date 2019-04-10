@@ -1,7 +1,7 @@
 # Bokeh Effect
-The aim of our project to segment any image into foreground and background, for which we have used the concept of defocus map (or depth map). More deltails about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
+The aim of our project is to segment any image into foreground and background, for which we have used the concept of defocus map (or depth map). More deltails about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
 
-The code is written in matlab since it already has in-built image processing filters useful for our project and we have also made use of its computer-vision library.
+The code is written in matlab since it is already having some built-in image processing filters used in our project and we have also made use of its computer-vision library.
 Matlab can be downloaded and installed from its official website ([link](https://in.mathworks.com/downloads/web_downloads)).
 <br>
 
