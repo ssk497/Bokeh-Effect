@@ -159,5 +159,5 @@ if __name__=='__main__':
 	if len(args) > 1:
 		img_path = args[1]
 	else:
-		img_path = 'Test image 5.png'
+		img_path = 'images/Test image 5.png'
 	generate_bokeh_image(img_path)
