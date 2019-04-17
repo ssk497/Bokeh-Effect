@@ -1,15 +1,25 @@
 # Bokeh Effect
-The aim of our project is to segment any image into foreground and background, for which we have used the concept of defocus map (or depth map). More deltails about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
+The aim of this project is to segment any image into foreground and background, for which the concept of defocus map is used.<br>
+More deltails about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
 
-The code is written in matlab since it is already having some built-in image processing filters used in our project and we have also made use of its computer-vision library.
-Matlab can be downloaded and installed from its official website ([link](https://in.mathworks.com/downloads/web_downloads)).
-<br>
+Team Members:
+- Harshal Mittal (16116020)
+- Harshit Bansal (16116021)
+- Shubham Maheshwari (16116065)
 
+### Project Structure
 The project is organised as follows : 
 
 ```bash
 .
-├── generate_bokeh_image.py    # the main matlab script for the project (implemented by us)
-│── bilateral_filter.py        # external module for 2-D bilateral filter (used in generate_bokeh_image.m)
-│── closed_form_matting.py     # external module implementing matting laplacian (used in generate_bokeh_image.m) 
+├── gen_bokeh_image.py                     # main project module
+│── face_detection.py                      # face detection module
+│── bilateral_filter.py                    # 2D bilateral filtering module
+│── closed_form_matting.py                 # external module (used for matting laplacian)
+│── haarcascade_frontalface_default.xml    # external module (used in face_detection.py)
+
 ```
+### Usage
+The code is in python3. To generate the results:
+```bash
+python3 gen_bokeh_image.py <path/to/img/file>
