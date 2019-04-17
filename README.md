@@ -9,7 +9,7 @@ The project is organised as follows :
 
 ```bash
 .
-├── generate_bokeh_image.m    # the main matlab script for the project (implemented by us)
-│── bilateral_filter.m        # external module for 2-D bilateral filter (used in generate_bokeh_image.m)
-│── get_laplacian_matrix.m    # external module implementing matting laplacian (used in generate_bokeh_image.m) 
+├── generate_bokeh_image.py    # the main matlab script for the project (implemented by us)
+│── bilateral_filter.py        # external module for 2-D bilateral filter (used in generate_bokeh_image.m)
+│── closed_form_matting.py     # external module implementing matting laplacian (used in generate_bokeh_image.m) 
 ```
