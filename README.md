@@ -1,6 +1,6 @@
 # Bokeh Effect
 The aim of this project is to segment any image into foreground and background, for which the concept of defocus map is used.<br>
-More deltails about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
+More details about the project and how the defocus map is extracted from an image is described in the project report [here](https://github.com/ssk497/Bokeh-Effect/blob/master/Bokeh_Effect.pdf).<br>
 
 Team Members:
 - Harshal Mittal (16116020)
@@ -22,4 +22,4 @@ The project is organised as follows :
 ### Usage
 The code is in python3. To generate the results:
 ```bash
-python3 gen_bokeh_image.py <path/to/img/file>
+python3 gen_bokeh_image.py <path/to/your/img/file>
